@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    zoom: 110%;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+#page{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner{
+    width: 900px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: deepskyblue;
+    margin: auto; 
+}
+
+#logo{
+    height: 100x;
+    border-style: none;
+    border-width: 1px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+
+}
+
+#social{
+    width: 180x;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    position: relative;
+    background-color: deepskyblue;
+    top: 40px;
+    right: 10px;
+
+    float: right;
+}
+
+#icon{
+    float: right;
+    margin-left: 10px;
+    width: 40px;
+}
+
+#rocco{
+    height: 80px;
+    width: auto;
+}
+
+.Sertifikalarım{
+    width: 180px;
+    height: auto;
+    padding: 7px;
+}
+
+.E-mail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: wheat;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#mainmenu{
+    width: 900px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #333333;
+    margin: auto; 
+}
+
+#form{
+    color: wheat;
+}
+
+.input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightslategrey;
+    line-height: 20px;
+    font-size: 16px; 
+    width: 350px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightslategrey;
+    margin-top: 10px;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 100px;
+    font-size: 16px; 
+}
+
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    background-color: #333333;
+    color: #007ACC;
+    border-color: #007ACC;
+    line-height: 35px;
+    font-size: 16px; 
+}
+.button:hover{
+    background-color: #333333;
+    color: limegreen;
+    border-color: limegreen;
+    line-height: 35px;
+    font-size: 16px; 
+}
+
+
+#mainmenu ul{
+    list-style-type: none;
+}
+
+#mainmenu ul li{
+    width: 120px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: #007ACC;
+    background-color: #333333;
+    float: left;
+    padding: 5px;
+    margin-left: 4px;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+#mainmenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16 px;
+}
+
+#mainmenu ul a:link{
+    color: #007ACC;
+}
+
+#mainmenu ul
+a:visited{
+    color: #007ACC;
+}
+
+#mainmenu ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#mainmenu ul a:active{
+    color: green;
+}
+
+
+#artcl{
+    width: 900px;
+    height: 400px;
+
+    background-image: url("images/background.gif");
+    background-color: #cccccc; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    border-style: none;
+    border-width: 1px;
+    color: red;
+    float: left;
+}
+
+#artcl a:link{
+    color: white;
+}
+
+#artcl a:visited{
+    color: white;
+}
+
+#artcl a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#artcl a:active{
+    color: green;
+}
+
+#mainmenulink{
+    color: black;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.image{
+    float: left;
+    width: 10px;
+    margin: 5px;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+}
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: wheat;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#botmenu{
+    width: 898px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #333333;
+    float: none;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}
+
+#botmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    padding: 5px;
+}
+
+#botmenu ul a:link{
+    color: gray;
+}
+
+#botmenu ul a:visited{
+    color: brown;
+}
+
+#botmenu ul a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+#botmenu ul a:active{
+    color: red;
+}
