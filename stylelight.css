@@ -4,7 +4,7 @@
     zoom: 100%;
 }
 body{
-    background-color: #242424;
+    background-color: #bebebe;
 }
 
 #page{
@@ -20,7 +20,7 @@ body{
     height: 100px;
     border-style: none;
     border-width: 1px;
-    background-color: deepskyblue;
+    background-color: #313131;
     margin: auto; 
 }
 
@@ -42,7 +42,7 @@ body{
     border-style: none;
     border-width: 1px;
     position: relative;
-    background-color: #00bfff;
+    background-color: #313131;
     top: 40px;
     right: 10px;
 
@@ -65,7 +65,7 @@ body{
 .E-mail{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: wheat;
+    color: black;
     margin: 10px;
     padding-top: 10px;
 }
@@ -76,12 +76,12 @@ body{
     border-style: none;
     border-width: 10px;
     border-color: #000000;
-    background-color:   #2ec7fa94;
+    background-color:   #000000;
     margin: auto; 
 }
 
 #form{
-    color: wheat;
+    color: black;
 }
 
 .input{
@@ -94,7 +94,7 @@ body{
     margin-top: 10px;
     border-radius: 5px;
     box-sizing: border-box;
-    border-color: #333333;
+    border-color: #999999;
     border-style: solid;
     border-width: 2px;
 }
@@ -140,8 +140,8 @@ body{
     border-style: solid;
     border-width: 4px;
     border-radius: 300px;
-    border-color: #333333;
-    background-color: #00bfff;
+    border-color: #999999;
+    background-color: #313131;
     float: left;
     padding: 10px;
     margin-left: 4px;
@@ -159,16 +159,16 @@ body{
 }
 
 #mainmenu ul a:link{
-    color: #333333;
+    color: #999999;
 }
 
 #mainmenu ul
 a:visited{
-    color: #333333;
+    color: #999999;
 }
 
 #mainmenu ul a:hover{
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -181,7 +181,6 @@ a:visited{
     width: 1800px;
     height: 890px;
     margin: 0;
-
     background-image: url("images/background.gif");
     background-color: #1E1E1E; 
     background-position: center;
@@ -194,22 +193,22 @@ a:visited{
 }
 
 #artcl a:link{
-    color: white;
+    color: black;
 }
 
 #artcl a:visited{
-    color: white;
+    color: black;
 }
 
 #artcl a:hover{
-    color: #00bfff;
+    color: #313131;
 }
 
 #artcl a:active{
-    color: #00bfff;
+    color: #313131;
 }
 #artcl2{
-    background-color: #242424;
+    background-color: #bebebe;
     border-radius: 5px;
     border-width: 100px;
     margin-left: 12 px;
@@ -223,28 +222,13 @@ a:visited{
     padding-top: 12px;
     position: relative;
 }
-.Progbar
- {
-     padding: 0px;
-     background-color: #313131;
-     max-height: 12px;
-     border: white;
-     margin-left: 16px;
-     margin-top: 1px;
-     border-radius: 5px;
-     margin-right: 3px;
-     border-width: 3px;
-     padding-right: 50px ;
- }
-
-
 #artcl3{
-    color: white;
+    color: black;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-weight: bolder;
-    background-color: #242424;
+    background-color: #bebebe;
     border-radius: 5px;
     border-width: 100px;
     margin-left: 12 px;
@@ -253,7 +237,7 @@ a:visited{
     position: relative;
 }
 #mainmenulink{
-    color: #242424;
+    color: #bebebe;
     font-size: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -272,14 +256,14 @@ a:visited{
 .text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    color: white;
+    color: #bebebe;
     margin: 10px;
 }
 
 .h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: wheat;
+    color: #bebebe;
     font-weight: bolder;
     margin: 10px;
     margin-bottom: 20px;
@@ -288,7 +272,7 @@ a:visited{
 .h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: #00bfff;
+    color: #313131;
     font-weight: bolder;
     margin: 10px;
     margin-bottom: 5px;
@@ -301,12 +285,11 @@ a:visited{
  .tabletext{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    line-height: 20px;
     text-align: right;
-    color: #00bfff98;
+    color: #313131;
     font-weight: bolder;
     margin: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     padding-left: 30px;
     padding-right: 200px;
     padding-bottom: 50px;
@@ -314,21 +297,19 @@ a:visited{
 .Table{
 
 }
-
 .Trow{}
 #ben{
     max-width: 120px;
     margin-right: 0px;
-    background-color: greenyellow;
+
     position: absolute;
     margin-left: 720px;
     margin-top: 0px;
     border-color: #1E1E1E;
     border-style: solid;
     border-radius: 5px;
-    border-width: 3px;
-    padding: 0px; 
-
+    border-width: 3px; 
+    padding: 0px;
 }
 #rocco{
     max-width: 480px;
@@ -349,12 +330,13 @@ a:visited{
     height: 30px;
     border-style: none;
     border-width: 1px;
-    background-color: #333333;
+    background-color: #999999;
     float: none;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bolder;
     line-height: 10px;
+    
 
 }
 
@@ -362,12 +344,13 @@ a:visited{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     font-weight: bold;
-    color: wheat;
+    color: black;
     padding: 5px;
+    text-decoration: none;
 }
 
 #botmenu ul a:link{
-    color: wheat;
+    color: black;
 }
 
 #botmenu ul a:visited{
@@ -375,7 +358,7 @@ a:visited{
 }
 
 #botmenu ul a:hover{
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
