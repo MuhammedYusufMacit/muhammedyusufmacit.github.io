@@ -1,0 +1,335 @@
+*{
+    margin: 3px;
+    padding: 3px;
+    zoom: 100%;
+}
+body{
+    background-color: #bebebe;
+}
+
+#page{
+    width: 1800px;
+    min-height: 1080px;
+    border-style: none;
+    margin: auto;
+    
+}
+
+#banner{
+    width: 1800px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #313131;
+    margin: auto; 
+}
+
+#logo{
+    width: auto;
+    height: 100x;
+    border-style: none;
+    border-width: 1px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+
+}
+
+#social{
+    width: 1800x;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    position: relative;
+    background-color: #313131;
+    top: 40px;
+    right: 10px;
+
+    float: right;
+}
+
+#icon{
+    float: right;
+    margin-left: 10px;
+    width: 40px;
+}
+
+
+.Sertifikalarım{
+    width: 200px;
+    height: auto;
+    padding: 3px;
+}
+#mainmenu{
+    width: 1800px;
+    height: 80px;
+    border-style: none;
+    border-width: 10px;
+    border-color: #000000;
+    background-color:   #999999;
+    margin: auto; 
+}
+
+#mainmenu ul{
+    list-style-type: none;
+}
+
+#mainmenu ul li{
+    width: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 300px;
+    border-color: #1E1E1E;
+    background-color: #313131;
+    float: left;
+    padding: 10px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+#mainmenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16 px;
+}
+
+#mainmenu ul a:link{
+    color: #999999;
+}
+
+#mainmenu ul
+a:visited{
+    color: #999999;
+}
+
+#mainmenu ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#mainmenu ul a:active{
+    color: #1E1E1E;
+}
+
+
+#artcl{
+    width: 1800px;
+    height: 890px;
+    margin: 0;
+    background-image: url("images/background.gif");
+    background-color: rgb(180, 180, 180); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    border-style: none;
+    border-width: 1px;
+    color: red;
+    float: left;
+}
+
+#artcl a:link{
+    color: black;
+}
+
+#artcl a:visited{
+    color: black;
+}
+
+#artcl a:hover{
+    color: #313131;
+}
+
+#artcl a:active{
+    color: #313131;
+}
+#artcl2{
+    background-color: #bebebe;
+    border-radius: 5px;
+    border-width: 100px;
+    margin-left: 12 px;
+    margin-right: 12px;
+    position: relative;
+}
+.A3H{
+    color: rgb(121, 83, 121);
+    text-decoration: underline;
+    font-size: 24px;
+    padding-top: 12px;
+    position: relative;
+}
+#artcl3{
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #bebebe;
+    border-radius: 5px;
+    border-width: 100px;
+    margin-left: 12 px;
+    margin-right: 12px;
+    padding-left: 60px;
+    position: relative;
+}
+#mainmenulink{
+    color: #bebebe;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 10px;
+}
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #313131;
+    font-weight: bolder;
+    margin: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: right;
+}
+ .tabletext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+#ben{
+    max-width: 120px;
+    margin-right: 0px;
+
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 0px;
+    border-color: #1E1E1E;
+    border-style: solid;
+    border-radius: 120px;
+    border-width: 3px; 
+    padding: 0px;
+}
+
+#botmenu{
+    width: 1800px;
+    height: 30px;
+    border-style: none;
+    border-width: 1px;
+    background-color: #999999;
+    float: none;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    line-height: 10px;
+    
+
+}
+
+#botmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#botmenu ul a:link{
+    color: black;
+}
+
+#botmenu ul a:visited{
+    color: brown;
+}
+
+#botmenu ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#botmenu ul a:active{
+    color: red;
+}
+
+#toggle{
+    position: relative;
+    display: block;
+    position: absolute;
+    margin-left: 1700px;
+    width: 80px;
+    height: 44px;
+    border-radius: 44px;
+    background: #222;
+    transition: 0.5s;
+    box-shadow: inset 0 2px 15px rgba(0, 0, 0,0.1),
+    inset 0 2px 2px rgba(0, 0, 0,0.1),
+    inset 0 -1px 1px rgba(0, 0, 0,0.1);
+    cursor: pointer;
+}
+
+#toggle .indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(to bottom,#444,#222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: inset 0 8px 40px rgba(0, 0, 0,0.5),
+    inset 0 1px 1px rgba(255,255,255,0.2),
+    inset 0 -1px 1px rgba(255,255,255,0.2);
+    transition: 0.5s;
+}
+#toggle.active .indicator
+{
+    left:38px;
+    background: #bbbbbb;
+    background: linear-gradient(to bottom, #bebebe,#f9f9f9);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0,0.1),
+    inset 0 1px 1px rgba(255, 255, 255,1),
+    inset 0 -1px 1px rgba(255, 255, 255,1);
+}
+
+#toggle.active
+{
+    background: #bbbbbb;
+    box-shadow: inset 0 2px 15px rgba(0, 0, 0,0.1),
+    inset 0 0 2px rgba(0, 0, 0,0.1),
+    inset 0 -1px 1x rgba(0, 0, 0,0.5);
+}
