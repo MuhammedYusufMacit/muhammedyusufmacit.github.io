@@ -6,30 +6,63 @@
             <title>Muhammed Yusuf Macit </title>
         </h1>
         <meta name="description" content="Muhammed Yusuf Macit kişisel web sayfası CV">
+        <meta name="author" content="Muhammed Yusuf Macit"  >
         <meta name="keywords" content="Muhammed,Yusuf,Macit,Web sitesi,CV">
-        <link rel="stylesheet" href="style.css">
+        <link id="stylesheet" rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="script" href="Scripts/script.js">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function setStyleSheet(url){
+               var stylesheet = document.getElementById("stylesheet");
+               stylesheet.setAttribute('href', url);
+            }
+            </script>
+
     </head>
     <body>
+
         <div id="page">
             <header id="banner">
                 <div id="logo">
-                    <a id="mainmenulink" href="index.html">Muhammed Yusuf Macit   <img  id="ben" src="bne.png " alt=""></a>
+                    <a id="mainmenulink" href="index.html">Muhammed Yusuf Macit   <img  id="ben" src="images\Mym.png " alt=""></a>
                 </div>
                 <div id="social">
-                   <a href="https://www.linkedin.com/in/muhammed-yusuf-macit-1487a1197/%22%3E<img id="icon" src="images\linkedin.png"></a> 
-                   <a href="https://github.com/MuhammedYusufMacit%22%3E<img id="icon" src="images\github.png"></a> 
+                    <a href="https://www.linkedin.com/in/muhammed-yusuf-macit-1487a1197/%22%3E"><img id="icon" src="images\linkedin.png"></a>
+                    <a href="https://github.com/MuhammedYusufMacit%22%30E"> <img id="icon" src="images\github.png"></a> 
                 </div>
-
             </header>
 
             <nav id="mainmenu">
                 <ul>
                     <li><a href="index.html">Anasayfa</a></li>
                     <li><a href="hakkimda.html">Hakkımda</a></li>
-                    <li><a href="light.html">Açık Tema</a></li>
                 </ul>
-
+                
+                <div id="toggle"> 
+                    <i class="indicator"></i>
+                </div>
+                <script>
+                    var counter=0;
+                   const toggle = document.getElementById('toggle');
+                   function setStyleSheet(url){
+                       var stylesheet = document.getElementById("stylesheet");
+                       stylesheet.setAttribute('href', url);
+                    }
+                   toggle.onclick=function(){
+                    toggle.classList.toggle('active');
+                       counter=counter+1; 
+                       if(counter===1)
+                       {
+                        setStyleSheet('stylelight.css')
+                       }
+                       else
+                       {
+                        setStyleSheet('style.css')
+                        counter=0;
+                       }
+                       
+                   } 
+                </script>
             </nav>
 
             <article id="artcl">
@@ -50,26 +83,14 @@
                          <tr class="Trow">   <td class="h5">Eğitim</td> <td class="h5">Marmara Üniversitesi</td> <td class="h5">2019-2023</td> </tr>
                          <tr class="Trow"><td> </td><td class="tabletext">Lisans, Bilgisayar Mühendisliği</td></tr>
                          <tr class="Trow">   <td class="h5">Yetenekler</td> <td class="h5">Hobiler</td></tr>
-                         <tr class="Trow"><td class="tabletext">Python <img class="Progbar" src="bar.png"alt=""><br>Java <img class="Progbar" src="bar.png"alt=""><br>HTML & CSS <img class="Progbar" src="bar.png"alt=""><br>Javascript <img class="Progbar" src="bar.png"alt=""><br>C <img class="Progbar" src="bar.png"alt=""><br>MsSQL <img class="Progbar" src="bar.png"alt=""><br>VHDL <img id="vhdl" class="Progbar" src="bar.png"alt=""><br>Assembly <img class="Progbar" src="bar.png"alt=""></td> 
-                        <td class="tabletext">Bilgisayar Oyunları<br>Kutu Oyunları<br>Kod Yazmak<br>Arabalarla ilgilenmek <br>Araba sürmek<br>Yürüyüş<!--- <img  id="rocco" src="rocco.png" alt="">--></td></tr>
+                         <tr class="Trow"><td class="tabletext">Python<br>Java<br>HTML & CSS<br>Javascript<br>C<br>MsSQL<br>VHDL<br>Assembly</td> <td class="tabletext"> Bilgisayar Oyunları<br>Kutu Oyunları<br>Kod Yazmak<br>Nascar<br>Okçuluk<br>Trekking</td> <td><a href="https://i.imgur.com/iAFrxDU.png"> <img class="Sertifikalarım" src="images\java.png" alt="Java"></a>
+                            <a href="https://i.imgur.com/uum4Tps.png"> <img class="Sertifikalarım" src="images\ilerijava.png" alt="İleri Seviye java"></a>
+                            <a href="https://i.imgur.com/XJKJpX0.png"> <img class="Sertifikalarım" src="images\python.png" alt="Veri Bilimi için python ve Tensorflow"></a>   </td> </tr>
+                        
                          
                     </table>
-                    
-
-                    <p class="text">
-                    
-                    </p>
 
                 </div>
-                
-
-
-
-                <br>
-                <h1 class="h1"></h1>
-                <p class="text">
-
-                </p>
 
             </article>
             <footer id="botmenu">
